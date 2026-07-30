@@ -281,3 +281,18 @@ INSERT INTO past_papers (subject_id, teacher_id, title, term, file_path, uploade
 (1, 1, 'Mathematics — Term 1 2025/26 Final Exam', 'Term 1 2025/26', 'past_papers/sample-mathematics-term1.pdf', '2026-04-02 09:00:00'),
 (2, 1, 'Physics — Term 1 2025/26 Final Exam', 'Term 1 2025/26', 'past_papers/sample-physics-term1.pdf', '2026-04-02 09:10:00'),
 (3, 2, 'Biology — Mid-Term Test', 'Term 2 2025/26', 'past_papers/sample-biology-midterm.pdf', '2026-05-10 14:00:00');
+
+
+
+
+CREATE TABLE messages (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    sender_id INT NOT NULL,
+    recipient_id INT NOT NULL,
+    subject VARCHAR(150) DEFAULT NULL,
+    body TEXT NOT NULL,
+    sent_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    read_at TIMESTAMP NULL DEFAULT NULL,
+    FOREIGN KEY (sender_id) REFERENCES users(id) ON DELETE CASCADE,
+    FOREIGN KEY (recipient_id) REFERENCES users(id) ON DELETE CASCADE
+) ENGINE=InnoDB;
