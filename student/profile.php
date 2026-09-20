@@ -78,7 +78,7 @@ $error = $_GET['error'] ?? null;
               <tr><td style="color:var(--slate); width:40%;">Student Number</td><td><b style="font-family:var(--font-data);"><?= h($student['admission_no']) ?></b></td></tr>
               <tr><td style="color:var(--slate);">Full Name</td><td><?= h($u['full_name']) ?></td></tr>
               <tr><td style="color:var(--slate);">Email</td><td><?= h($student['email']) ?></td></tr>
-              <tr><td style="color:var(--slate);">Class</td><td><?= h($student['class_name']) ?> (Grade <?= (int)$student['grade_level'] ?>)</td></tr>
+              <tr><td style="color:var(--slate);">Class</td><td><?= h($student['class_name']) ?> (grade <?= (int)$student['grade_level'] ?>)</td></tr>
               <tr><td style="color:var(--slate);">Roll Number</td><td><?= h($student['roll_no']) ?></td></tr>
               <tr><td style="color:var(--slate);">Attendance</td><td><?= h($student['attendance_pct']) ?>%</td></tr>
             </tbody>

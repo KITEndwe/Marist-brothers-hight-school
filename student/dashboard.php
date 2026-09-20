@@ -91,9 +91,11 @@ $announcements = $stmt->fetchAll();
 
   <main class="main">
     <div class="topbar">
+      <img scr="logo.png"  alt="MBN Seal" width="48" height="48" stlye= "mix-blend-mode:multiply;">
       <div>
         <h1>Student Dashboard</h1>
         <div class="meta"><?= date('l, j F Y') ?> · <?= h($term) ?></div>
+        
       </div>
       <span class="term-pill">🗓 <?= h($term) ?></span>
     </div>

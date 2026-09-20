@@ -21,12 +21,12 @@ CREATE TABLE users (
 ) ENGINE=InnoDB;
 
 -- ---------------------------------------------------------------------
--- Classes (e.g. Grade 10A)
+-- Classes (e.g. form 3A, form 4B, etc.)
 -- ---------------------------------------------------------------------
 CREATE TABLE classes (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(20) NOT NULL,          -- e.g. '10A'
-    grade_level INT NOT NULL,           -- e.g. 10
+    name VARCHAR(20) NOT NULL,          -- e.g. '3A'
+    form_level INT NOT NULL,           -- e.g. 3
     class_teacher_id INT DEFAULT NULL,
     FOREIGN KEY (class_teacher_id) REFERENCES users(id) ON DELETE SET NULL
 ) ENGINE=InnoDB;
@@ -213,11 +213,11 @@ INSERT INTO users (full_name, email, password_hash, role, avatar_initials) VALUE
 ('Mrs. Anesu Chirwa', 'a.chirwa@mbn.ac.zw', '$2b$10$B0UVhlkLNmjjbU.Wqs589eL7ePtCn9tm1uGcu5uCrHRtmKm.Qyt3m', 'teacher', 'AC'),
 ('Admin Office', 'admin@mbn.ac.zw', '$2b$10$B0UVhlkLNmjjbU.Wqs589eL7ePtCn9tm1uGcu5uCrHRtmKm.Qyt3m', 'admin', 'AD');
 
-INSERT INTO classes (name, grade_level, class_teacher_id) VALUES
-('10A', 10, 4),
-('11B', 11, 5),
-('12A', 12, 4),
-('9C', 9, 5);
+INSERT INTO classes (name, form_level, class_teacher_id) VALUES
+('3A', 3, 4),
+('4B', 4, 5),
+('5A', 5, 4),
+('6C', 6, 5);
 
 INSERT INTO students (user_id, admission_no, class_id, roll_no, attendance_pct) VALUES
 (1, 'MBN-2024-001', 1, '2024-001', 94.00),
@@ -267,7 +267,7 @@ INSERT INTO announcements (title, body, category, audience, posted_by, posted_da
 ('Sports Day — 3 June', 'Inter-house sports day will be held on 3 June starting 8:00 AM. All students to be in house colours.', 'Events', 'all', 6, '2026-05-12'),
 ('Parent-Teacher Conference', 'Parents are invited to meet class teachers on the scheduled date to discuss Term 2 progress.', 'Parents', 'all', 6, '2026-05-09'),
 ('Library Now Open 24/7', 'The main library is now open around the clock for the exam period.', 'Info', 'all', 6, '2026-05-07'),
-('Mathematics Revision Session', 'Extra revision for 10A on quadratic equations this Friday after school in Rm 101.', 'Academic', 'students', 4, '2026-05-15');
+('Mathematics Revision Session', 'Extra revision for 3A on quadratic equations this Friday after school in Rm 101.', 'Academic', 'students', 4, '2026-05-15');
 
 INSERT INTO teacher_attendance (teacher_id, attendance_date, status) VALUES
 (1, '2026-05-18', 'present'),

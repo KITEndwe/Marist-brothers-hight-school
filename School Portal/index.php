@@ -40,7 +40,7 @@ $contactStatus = $_GET['contact'] ?? null; // 'sent' | 'error' | null
   <div class="site-hero-inner">
     <div>
       <span class="site-eyebrow">🇿🇼 Nyanga · Manicaland Province · Zimbabwe</span>
-      <h1>Forming young men and women of <span>faith, discipline and purpose</span>.</h1>
+      <h1>Forming young menof <span>faith, discipline and purpose</span>.</h1>
       <p class="lead">
         Marist Brothers and Nyanga High School provides Catholic secondary education
         for the ZIMSEC O-Level and A-Level curriculum, combining strong academics,
@@ -61,7 +61,7 @@ $contactStatus = $_GET['contact'] ?? null; // 'sent' | 'error' | null
       <p class="hero-quote">"Ut vitam habeant" — that they may have life, in the Marist tradition of Champagnat.</p>
       <ul class="hero-checks">
         <li>ZIMSEC O-Level &amp; A-Level curriculum</li>
-        <li>Boarding &amp; day scholar places</li>
+        <li>Boarding places available</li>
         <li>Online portal for grades, fees &amp; attendance</li>
       </ul>
     </div>
@@ -138,7 +138,7 @@ $contactStatus = $_GET['contact'] ?? null; // 'sent' | 'error' | null
       </div>
       <div class="contact-row">
         <div class="ic">📞</div>
-        <div><b>Phone</b><span>+263 29 2 8412 · +263 77 234 5678 (WhatsApp)</span></div>
+        <div><b>Phone</b><span>+263 77729604 · +263 77 234 5678 (WhatsApp)</span></div>
       </div>
       <div class="contact-row">
         <div class="ic">✉️</div>

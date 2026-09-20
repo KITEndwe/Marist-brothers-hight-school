@@ -8,8 +8,8 @@ $contactStatus = $_GET['contact'] ?? null; // 'sent' | 'error' | null
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Marist Brothers and Nyanga High School — Nyanga, Zimbabwe</title>
-<meta name="description" content="Marist Brothers and Nyanga High School: Catholic secondary education in Nyanga, Manicaland, Zimbabwe. Academics, boarding, sports and a digital school portal for students, teachers and parents.">
+<title>Marist Brothers Nyanga High School — Nyanga, Zimbabwe</title>
+<meta name="description" content="Marist Brothers Nyanga High School: Catholic secondary education in Nyanga, Manicaland, Zimbabwe. Academics, boarding, sports and a digital school portal for students, teachers and parents.">
 <script>(function(){try{var t=localStorage.getItem('mbn-theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -21,9 +21,9 @@ $contactStatus = $_GET['contact'] ?? null; // 'sent' | 'error' | null
   <div class="site-nav-inner">
     <a href="index.php#home" class="brand-row" style="text-decoration:none;">
       <div class="seal">
-       <img src="Logo.png" alt="MBN Seal" width="48" height="48">
+       <img src="Logo.png" alt="MBN Seal" width="48" height="48" stlye= "mix-blend-mode:multiply;">
       </div>
-      <div class="brand-name">Marist Brothers<br>&amp; Nyanga High School</div>
+      <div class="brand-name">Marist Brothers<br> Nyanga High School</div>
     </a>
 
     <ul class="site-nav-links" id="site-nav-links">
@@ -44,7 +44,7 @@ $contactStatus = $_GET['contact'] ?? null; // 'sent' | 'error' | null
       <span class="site-eyebrow">🇿🇼 Nyanga · Manicaland Province · Zimbabwe</span>
       <h1>Forming young men of <span>faith, discipline and purpose</span>.</h1>
       <p class="lead">
-        Marist Brothers and Nyanga High School provides Catholic secondary education
+        Marist Brothers Nyanga High School provides Catholic secondary education
         for the ZIMSEC O-Level and A-Level curriculum, combining strong academics,
         boarding life and pastoral care in the highlands of Nyanga.
       </p>
@@ -63,7 +63,7 @@ $contactStatus = $_GET['contact'] ?? null; // 'sent' | 'error' | null
       <p class="hero-quote">"Ut vitam habeant" — that they may have life, in the Marist tradition of Champagnat.</p>
       <ul class="hero-checks">
         <li>ZIMSEC O-Level &amp; A-Level curriculum</li>
-        <li>Boarding &amp; day scholar places</li>
+        <li>Boarding places</li>
         <li>Online portal for grades, fees &amp; attendance</li>
       </ul>
     </div>
@@ -87,7 +87,7 @@ $contactStatus = $_GET['contact'] ?? null; // 'sent' | 'error' | null
     <div class="service-card">
       <div class="ic">🏠</div>
       <h3>Boarding &amp; Pastoral Care</h3>
-      <p>Safe, disciplined boarding houses for boys and girls, supervised by matrons and Brothers who provide day-to-day pastoral guidance.</p>
+      <p>Safe, disciplined boarding houses for boys , supervised by matrons and Brothers who provide day-to-day pastoral guidance.</p>
     </div>
     <div class="service-card">
       <div class="ic">⛪</div>
@@ -97,7 +97,7 @@ $contactStatus = $_GET['contact'] ?? null; // 'sent' | 'error' | null
     <div class="service-card">
       <div class="ic">🏉</div>
       <h3>Sports &amp; Co-curricular</h3>
-      <p>Rugby, football, athletics, netball and inter-house competitions, alongside clubs and societies that build teamwork and character.</p>
+      <p>Rugby, football, athletics, basketball,volleyball,handball,tennis and inter-house competitions, alongside clubs and societies that build teamwork and character.</p>
     </div>
     <div class="service-card">
       <div class="ic">💻</div>
@@ -140,7 +140,7 @@ $contactStatus = $_GET['contact'] ?? null; // 'sent' | 'error' | null
       </div>
       <div class="contact-row">
         <div class="ic">📞</div>
-        <div><b>Phone</b><span>+263 29 2 8412 · +263 77 234 5678 (WhatsApp)</span></div>
+        <div><b>Phone</b><span>+263 77 329 2505 · +263 77 234 5678 (WhatsApp)</span></div>
       </div>
       <div class="contact-row">
         <div class="ic">✉️</div>

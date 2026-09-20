@@ -31,10 +31,11 @@ $errorMessages = [
   <!-- Left hero panel -->
   <div class="auth-hero">
     <div>
-      <a href="index.php" style="color: rgba(246,242,233,.7); font-size:12.5px; font-weight:600; margin-bottom:18px; display:inline-block;">← Back to website</a>
+      <a href="index.php" style="color: rgba(8, 240, 62, 0.7); font-size:12.5px; font-weight:600; margin-bottom:18px; display:inline-block;">← Back to website</a>
       <div class="brand-row">
-        <div class="seal lg">MBN</div>
-        <div class="brand-name">Marist Brothers and<br>Nyanga High School
+        <div class="seal "></div>
+        <img src="logo.png"alt="MBN Seal" width="48" height="48"stlye= "mix-blend-mode:multiply;">
+        <div class="brand-name">Marist Brothers <br>Nyanga High School
           <small>School Management Portal</small>
         </div>
       </div>
