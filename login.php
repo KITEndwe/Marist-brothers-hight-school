@@ -94,7 +94,7 @@ $errorMessages = [
       </form>
 
       <div class="divider">OR</div>
-      <button type="button" class="btn-google">Continue with Google SSO</button>
+      <button type="button" class="btn-google">Continue with Google </button>
 
       <p class="auth-secure">🔒 256-bit SSL encrypted · Your data is safe</p>
       <p class="auth-note">New student? Contact your administrator for access.</p>
